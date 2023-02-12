@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "tjawn"
+version = "1.0.0"
+description = "Human friendly lightweight object notation."
+authors = ["tjkopena <tjkopena@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
